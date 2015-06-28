@@ -11,8 +11,8 @@ RUN \
   --exclude="ChangeLog" -C "/usr/local"
 
 # Set the working directory
-WORKDIR   /src
+RUN git clone https://d198f67e87a9110862c01291706758c8f919ffd6:x-oauth@github.com/antonychan/ecs-test src
 
-#
+EXPOSE 80
 
 CMD ["/bin/bash"]
