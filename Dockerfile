@@ -13,6 +13,11 @@ RUN \
 # Set the working directory
 RUN git clone https://d198f67e87a9110862c01291706758c8f919ffd6:x-oauth@github.com/antonychan/ecs-test src
 
+# Set the working directory to where we just cloned to
+WORKDIR /src
+
+RUN npm i
+
 EXPOSE 80
 
 CMD ["/bin/bash"]
