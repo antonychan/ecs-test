@@ -1,0 +1,10 @@
+{
+  "name": "ecs-test",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello world app on CentOS using docker",
+  "author": "Antony Chan <achan0327@yahoo.com>",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}
